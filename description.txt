@@ -1,0 +1,46 @@
+Functions:
+
+
+inversion() - function does inversion to list of list using slice method.
+
+
+negative_sound() - function multiplies all elements in list of lists by (-1).
+
+
+speed_increase() - function deletes all elements with even index from list of lists.
+
+
+speed_decrease() - function counts arithmetic mean between adjacent elements with similar indexes and adds them between the elements.
+
+
+volume_up() - function multiplies every element in list of lists by 1.2 using list comprehension but with limit of maximum and minimum values.
+
+
+volume_down() - function divides every element in list of list by 1.2 using list comprehension with same limits for maximum and minimum values as previous one.
+
+
+low_pass_filter() - function counts and adds arithmetic mean from first and second, last and last-1 elements, adds them to list, after this counts and adds arithmetic mean of 3 adjacent elements with same position in the list of list. 
+
+
+change_menu() - function calls for menu with changing .wav file options.
+
+
+main_menu() - function calls main menu of a program.
+
+
+get_data() - function sorts all data from input file into one list in format [NOTE, NUMBER, NOTE, NUMBER, ...]. This function helps to get all randomly sorted data in .txt file and sort it into list which will be more comfortable to work with.
+
+
+get_list_length() - function calculates and returns us length of note list.
+
+
+sound_creating() - function creates file with audio data which can be edited in change_menu after creating. Function accepts list of audio data which was sorted before with get_data() function.
+
+
+main() - main function calls the main menu.
+
+
+limit_checker() - checks the final audio data list for breaking minimal and maximal limits of volume. The best way to check if there any limit breaks in the final list before saving the file.
+
+
+
